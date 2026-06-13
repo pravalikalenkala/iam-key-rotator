@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.env
+.testenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs and runtime files
+*.log
+
+# Secrets (do not commit secrets)
+*.pem
+*.key
+secrets.json
